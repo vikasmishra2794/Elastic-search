@@ -1,0 +1,19 @@
+{
+  "name": "elastic-search",
+  "version": "1.0.0",
+  "description": "It formats the logs data sent by the different Microservices into the JSON.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:yapsody/sdk/logger-node.git"
+  },
+  "author": "Yapsody",
+  "license": "Yapsody India Pvt. Ltd.",
+  "dependencies": {
+    "indicative": "^5.0.8",
+    "request": "^2.88.0"
+  }
+}
