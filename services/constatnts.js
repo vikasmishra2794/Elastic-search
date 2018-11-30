@@ -1,5 +1,5 @@
 module.exports = {
-  //Microservices names
+  //List of Microservices names
   microservices: [
     'user',
     'transaction',
@@ -8,7 +8,7 @@ module.exports = {
     'accesscode',
     'booking'
   ],
-
+  //List of Log types
   log_types: [
     'verbose',
     'debug',

@@ -1,5 +1,9 @@
+//To get the access of utility functions.
 const appUtils = require('./utils');
+
+//Get the elastic search connection details based on the environment.
 const connection  = require('../config/connection')[appUtils.getNodeEnv()];
+
 const elasticSearch = require('elasticsearch');
 const client = new elasticSearch.Client({
   hosts: [ connection.host ]
@@ -10,6 +14,7 @@ module.exports = {
   saveLog: ( logData ) => {
 
     return new Promise( ( resolve, reject ) => {
+      //Call to elastic search API with log details
       client.index({
         index: getElasticSearchIndex( logData ),
         type: connection.type,

@@ -30,6 +30,6 @@ module.exports = {
   }
 };
 
-module.exports.saveSystemLog(
-  '{"order_id":"12345","email_id":"vikas.mishra@gmail.com","activity":"order","logType":"verbose","ft_order_id":"FT123345456","order_datetime":1543571103231,"total_transaction":2,"sale_interface":"Online","type":"test","payment_status":"partial_payment","test_mode":"No","msName":"transaction"}'
-);
+// module.exports.saveSystemLog(
+//   '{"order_id":"12345","email_id":"vikas.mishra@gmail.com","activity":"order","logType":"verbose","ft_order_id":"FT123345456","order_datetime":1543571103231,"total_transaction":2,"sale_interface":"Online","type":"test","payment_status":"partial_payment","test_mode":"No","msName":"transaction"}'
+// );
