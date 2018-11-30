@@ -1,4 +1,6 @@
 module.exports = {
   logApi: require('./api'),
-  validationRules: require('./validation_rules')
-}
+  validationRules: require('./validator'),
+  appUtils: require('./utils'),
+  constants: require('./constatnts')
+};

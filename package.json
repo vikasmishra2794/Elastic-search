@@ -13,7 +13,7 @@
   "author": "Yapsody",
   "license": "Yapsody India Pvt. Ltd.",
   "dependencies": {
-    "indicative": "^5.0.8",
-    "request": "^2.88.0"
+    "elasticsearch": "^15.2.0",
+    "indicative": "^5.0.8"
   }
 }
