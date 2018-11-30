@@ -12,5 +12,15 @@ module.exports = {
       payment_status: 'required',
       test_mode: 'required'
     }
+  },
+  sale: {
+    RULES: {
+
+    }
+  },
+  seat_details: {
+    RULES: {
+
+    }
   }
 }
